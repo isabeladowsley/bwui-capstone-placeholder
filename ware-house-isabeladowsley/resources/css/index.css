@@ -1,0 +1,162 @@
+
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: teal;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: teal ;
+  font-size: 16px;
+}
+
+header {
+  height: 180px;
+}
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: teal;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: teal;
+  text-align: center;
+
+}
+
+footer {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+
+.search-bar {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+
+}
+
+.myaccount {
+  color: teal;
+  background-color: hsla(0,0%,75%, 0.8);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 20px;
+  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  padding: 16px 30px;
+  text-decoration:none; 
+}
+
+
+.cart {
+  color: teal;
+  max-width: 30%;
+  background-color: hsla(0,0%,75%, 0.8);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 20px;
+  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  padding: 16px 30px;
+  text-decoration:none;
+
+}
+
+.hero {
+  width: 100%;
+  height: 21.75rem;
+  margin-top: 3rem;
+  background-image: url('../img/home/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.hero h2 {
+  padding-top: 10rem;
+  color: teal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: inherit;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.products {
+  padding: 0 5rem 6rem 5rem;
+
+}
+
+.products h2 {
+  margin-top: 2rem;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.landing .product-list {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.categories h3 {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1020px) {
+  .landing .product-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+@media only screen and (max-width: 760px) {
+  .landing .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .hero {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .hero h2 {
+    padding-top: 7rem;
+  }
+
+  .hero p {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .landing .product-list {
+    grid-template-columns: 1fr;
+  }
+}
